@@ -127,7 +127,7 @@ class q_learning() :
         self.scan_key = {
             'right' :  [ ( 225 , 315 ) ] ,
             'front' : [ ( 0 , 30 ) , ( 330 , 359 ) ] ,
-            'left' : [ ( 60 , 120 ) ] ,
+            #'left' : [ ( 60 , 120 ) ] ,
             'right_diagonal' : [ ( 270 , 330 ) ],
             #'orientation' : [(208,212) , (268,272), (328,332)]
         }
@@ -174,7 +174,7 @@ class q_learning() :
         self.directional_states = {
             'right' : ['close' , 'tilted close' , 'good' , 'tilted far' , 'far'],
             'front' : ['close', 'far'],
-            'left' : ['close' , 'far'],
+            #'left' : ['close' , 'far'],
             'right_diagonal' : ['close' , 'far'],
             #'orientation' : ['gain' , 'parallel' , 'lose', 'null']
         }
@@ -185,7 +185,7 @@ class q_learning() :
         self.thresholds = {
             'right' : {'close' : (0 , 0.8*d_w) , 'tilted close' : (0.8*d_w , 0.95*d_w) , 'good' : (0.95*d_w , 1.05*d_w), 'tilted far' : (1.05*d_w , 1.2*d_w) , 'far' : (1.2*d_w , 20)},
             'front' : {'close' : (0 , 0.8*d_w) , 'far' : (0.8*d_w , 20)},
-            'left' : {'close' : (0 , 2*fast_tr) , 'far' : ( 2*fast_tr , 20)},
+            #'left' : {'close' : (0 , 2*fast_tr) , 'far' : ( 2*fast_tr , 20)},
             'right_diagonal' : { 'close' : (0 , 2*d_w) , 'far' : (2*d_w , 20) }
         }
 
