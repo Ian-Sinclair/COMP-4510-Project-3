@@ -118,7 +118,7 @@ class q_learning() :
                  'incoming scan data' : None }
         
         #  Desired distance from walls
-        d_w = 0.5
+        d_w = 0.65
 
         self.d_w = d_w
 
@@ -128,15 +128,15 @@ class q_learning() :
             'right' :  [ ( 225 , 315 ) ] ,
             'front' : [ ( 0 , 30 ) , ( 330 , 359 ) ] ,
             #'left' : [ ( 60 , 120 ) ] ,
-            'right_diagonal' : [ ( 270 , 330 ) ],
+            'right_diagonal' : [ ( 250 , 330 ) ],
             #'orientation' : [(208,212) , (268,272), (328,332)]
         }
 
         self.start_positions = [
-            #(-1.7,-1.7,0 ),
+            (-1.7,-1.7,0 ),
             (0,1.8,math.pi),
-            #(2,1.3,math.pi/2),
-            #(1.7,-1.7,math.pi/2),
+            (2,1.3,math.pi/2),
+            (1.7,-1.7,math.pi/2),
             #(0,0,0),
             #('random','random','random')
         ]
@@ -184,9 +184,9 @@ class q_learning() :
         #  Sets state thresholds to discretized scan distance data.
         self.thresholds = {
             'right' : {'close' : (0 , 0.8*d_w) , 'tilted close' : (0.8*d_w , 0.95*d_w) , 'good' : (0.95*d_w , 1.05*d_w), 'tilted far' : (1.05*d_w , 1.2*d_w) , 'far' : (1.2*d_w , 20)},
-            'front' : {'close' : (0 , 0.8*d_w) , 'far' : (0.8*d_w , 20)},
+            'front' : {'close' : (0 , 0.5) , 'far' : (0.5 , 20)},
             #'left' : {'close' : (0 , 2*fast_tr) , 'far' : ( 2*fast_tr , 20)},
-            'right_diagonal' : { 'close' : (0 , 2*d_w) , 'far' : (2*d_w , 20) }
+            'right_diagonal' : { 'close' : (0 , 1.2*d_w) , 'far' : (1.2*d_w , 20) }
         }
 
 
@@ -440,33 +440,16 @@ class q_learning() :
 
 
     def get_reward( self , state , scanArray ) :
-        #if self.is_blocked(scanArray) : return -50
+        if self.is_blocked(scanArray) : return -15
 
         x = self.get_distance(scanArray , 'right')
         y = self.get_distance(scanArray , 'front')
-        z = self.get_distance(scanArray , 'left')
 
-        x = min( scanArray[180:359] )
+        if abs(x-self.d_w) > 0.2 or y < 0.5 :
+            return -1
+        return 0
 
-        #if abs(x-self.d_w) > 0.15 or y < self.d_w/2 or z < self.d_w : 
-        #    return -5
-        #return 0
 
-        if y < self.d_w/2 or z < self.d_w :
-            return -5
-
-        if x < 0.2 : x = 0.2
-        if y < 0.2 : y = 0.2
-        
-        f_x = -5*abs( x - self.d_w )
-
-        #f_x = -5*((x-self.d_w)**2)
-        #f_x = 5*math.cos(1.2*(x-self.d_w))-math.exp(-5*(x-0.7))-1
-        #f_x = -5*abs(x-self.d_w)
-        #f_y = -(0.05/(x-self.d_w))
-        f_y=0
-        #if abs(x-self.d_w) < 0.1 : f_x = 10
-        return f_x + f_y
 
     def update_Q_table( self, q_table , state , reward , action , new_state , gamma = 1, alpha = 0.2, strategy = 'Temporal Difference', new_action = None ) :
         if strategy == 'Temporal Difference' :
@@ -603,22 +586,14 @@ class q_learning() :
             self.publish_velocity( x = x , nz = nz )
             #  wait for result..... maybe pause physics
             
-            rospy.sleep(0)
+            rospy.sleep(0.1)
 
-            self.cache['incoming scan data'] = None
-            wait_counter = 0
-            while self.cache['incoming scan data'] == None and not rospy.is_shutdown() :
-                wait_counter += 1
-                if wait_counter > 200000 :
-                    rospy.loginfo(f'-----Waiting for scan data-------')
-                rospy.sleep(0)
             
             self.pause_physics()
             new_state = self.scan_to_state( self.cache['scan data'].ranges )
 
             reward = self.get_reward( new_state , self.cache['scan data'].ranges )
             q_table = self.update_Q_table( q_table , state , reward , action , new_state , strategy=strategy )
-
             accum_reward += reward
             if flag_random_action == False :
                 direction , mod = self.is_known_state( state , action )
@@ -633,7 +608,7 @@ class q_learning() :
             if count > limit :
                 rospy.loginfo(f'Robot is LOST: ABORTING SIM')
                 self.unpause_physics()
-                q_table = self.update_Q_table( q_table , state , -50 , action , new_state )
+                q_table = self.update_Q_table( q_table , state , -15 , action , new_state )
                 break
 
             if repeat_states > repeat_limit  :

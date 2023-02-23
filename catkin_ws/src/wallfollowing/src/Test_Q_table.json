@@ -1,282 +1,142 @@
 {
-    "right : close\tfront : close\tleft : close\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -120.98498815670598,
-        "linear: (fast) , angular: (turn left)": -123.52754687437186,
-        "linear: (fast) , angular: (hard left)": -122.8925742925448,
-        "linear: (fast) , angular: (turn right)": -127.64644325706286,
-        "linear: (fast) , angular: (hard right)": -118.18618359542678
+    "right : close\tfront : close\tright_diagonal : close\t": {
+        "linear: (fast) , angular: (straight)": -74.13439794261527,
+        "linear: (fast) , angular: (turn left)": -70.54148101832358,
+        "linear: (fast) , angular: (hard left)": -68.2971587971466,
+        "linear: (fast) , angular: (turn right)": -72.08087712737054,
+        "linear: (fast) , angular: (hard right)": -69.28128540431824
     },
-    "right : close\tfront : close\tleft : close\tright_diagonal : far\t": {
+    "right : close\tfront : close\tright_diagonal : far\t": {
         "linear: (fast) , angular: (straight)": 0,
         "linear: (fast) , angular: (turn left)": 0,
         "linear: (fast) , angular: (hard left)": 0,
         "linear: (fast) , angular: (turn right)": 0,
         "linear: (fast) , angular: (hard right)": 0
     },
-    "right : close\tfront : close\tleft : far\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -106.40770564102368,
-        "linear: (fast) , angular: (turn left)": -106.631299433393,
-        "linear: (fast) , angular: (hard left)": -97.89440862845404,
-        "linear: (fast) , angular: (turn right)": -97.0952046592703,
-        "linear: (fast) , angular: (hard right)": -98.32121672064211
+    "right : close\tfront : far\tright_diagonal : close\t": {
+        "linear: (fast) , angular: (straight)": -50.42373809518828,
+        "linear: (fast) , angular: (turn left)": -50.66753731760072,
+        "linear: (fast) , angular: (hard left)": -50.97123282278544,
+        "linear: (fast) , angular: (turn right)": -50.67713484492297,
+        "linear: (fast) , angular: (hard right)": -44.52073402486009
     },
-    "right : close\tfront : close\tleft : far\tright_diagonal : far\t": {
+    "right : close\tfront : far\tright_diagonal : far\t": {
+        "linear: (fast) , angular: (straight)": -28.76950674529394,
+        "linear: (fast) , angular: (turn left)": -31.465873069738016,
+        "linear: (fast) , angular: (hard left)": -31.148745971142706,
+        "linear: (fast) , angular: (turn right)": -32.315577397660576,
+        "linear: (fast) , angular: (hard right)": -31.159715402895266
+    },
+    "right : tilted close\tfront : close\tright_diagonal : close\t": {
+        "linear: (fast) , angular: (straight)": -62.98340322032611,
+        "linear: (fast) , angular: (turn left)": -63.57868734779731,
+        "linear: (fast) , angular: (hard left)": -58.50986793745981,
+        "linear: (fast) , angular: (turn right)": -63.90499885736073,
+        "linear: (fast) , angular: (hard right)": -63.609833856891804
+    },
+    "right : tilted close\tfront : close\tright_diagonal : far\t": {
         "linear: (fast) , angular: (straight)": 0,
         "linear: (fast) , angular: (turn left)": 0,
         "linear: (fast) , angular: (hard left)": 0,
         "linear: (fast) , angular: (turn right)": 0,
         "linear: (fast) , angular: (hard right)": 0
     },
-    "right : close\tfront : far\tleft : close\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -6.61999534906594,
-        "linear: (fast) , angular: (turn left)": -0.48361170579658863,
-        "linear: (fast) , angular: (hard left)": -11.636362613188208,
-        "linear: (fast) , angular: (turn right)": -4.235089264980713,
-        "linear: (fast) , angular: (hard right)": -5.513635926007395
+    "right : tilted close\tfront : far\tright_diagonal : close\t": {
+        "linear: (fast) , angular: (straight)": -41.10153911988764,
+        "linear: (fast) , angular: (turn left)": -41.18728833969334,
+        "linear: (fast) , angular: (hard left)": -43.9768728910868,
+        "linear: (fast) , angular: (turn right)": -41.113426385532264,
+        "linear: (fast) , angular: (hard right)": -42.93811249980717
     },
-    "right : close\tfront : far\tleft : close\tright_diagonal : far\t": {
-        "linear: (fast) , angular: (straight)": -2.979286314541633,
-        "linear: (fast) , angular: (turn left)": -3.478307595014357,
-        "linear: (fast) , angular: (hard left)": -3.9217104908610767,
-        "linear: (fast) , angular: (turn right)": -0.5098677574449071,
-        "linear: (fast) , angular: (hard right)": -4.8779279884865865
+    "right : tilted close\tfront : far\tright_diagonal : far\t": {
+        "linear: (fast) , angular: (straight)": -25.030940814377423,
+        "linear: (fast) , angular: (turn left)": -24.276288677583477,
+        "linear: (fast) , angular: (hard left)": -25.51836222488742,
+        "linear: (fast) , angular: (turn right)": -26.18803154765293,
+        "linear: (fast) , angular: (hard right)": -25.14416591735484
     },
-    "right : close\tfront : far\tleft : far\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -44.723650747810325,
-        "linear: (fast) , angular: (turn left)": -45.42441758521234,
-        "linear: (fast) , angular: (hard left)": -41.80294576828877,
-        "linear: (fast) , angular: (turn right)": -43.25013600790997,
-        "linear: (fast) , angular: (hard right)": -18.318097634840136
+    "right : good\tfront : close\tright_diagonal : close\t": {
+        "linear: (fast) , angular: (straight)": -56.36421788008121,
+        "linear: (fast) , angular: (turn left)": -55.91126835885328,
+        "linear: (fast) , angular: (hard left)": -55.661749092082864,
+        "linear: (fast) , angular: (turn right)": -60.674382152326416,
+        "linear: (fast) , angular: (hard right)": -55.87277231242031
     },
-    "right : close\tfront : far\tleft : far\tright_diagonal : far\t": {
-        "linear: (fast) , angular: (straight)": -2.1553117985978414,
-        "linear: (fast) , angular: (turn left)": -5.065345825763316,
-        "linear: (fast) , angular: (hard left)": -4.551834752721578,
-        "linear: (fast) , angular: (turn right)": -2.4306182824348457,
-        "linear: (fast) , angular: (hard right)": -3.322219377624627
-    },
-    "right : tilted close\tfront : close\tleft : close\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -73.3488380233434,
-        "linear: (fast) , angular: (turn left)": -78.82369570560715,
-        "linear: (fast) , angular: (hard left)": -74.215736453207,
-        "linear: (fast) , angular: (turn right)": -75.25995621512715,
-        "linear: (fast) , angular: (hard right)": -76.90993691373014
-    },
-    "right : tilted close\tfront : close\tleft : close\tright_diagonal : far\t": {
+    "right : good\tfront : close\tright_diagonal : far\t": {
         "linear: (fast) , angular: (straight)": 0,
         "linear: (fast) , angular: (turn left)": 0,
         "linear: (fast) , angular: (hard left)": 0,
         "linear: (fast) , angular: (turn right)": 0,
         "linear: (fast) , angular: (hard right)": 0
     },
-    "right : tilted close\tfront : close\tleft : far\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -44.83721138551899,
-        "linear: (fast) , angular: (turn left)": -54.40798626364847,
-        "linear: (fast) , angular: (hard left)": -43.97427955884491,
-        "linear: (fast) , angular: (turn right)": -47.598065574955925,
-        "linear: (fast) , angular: (hard right)": -53.75314922283778
+    "right : good\tfront : far\tright_diagonal : close\t": {
+        "linear: (fast) , angular: (straight)": -38.82585917195221,
+        "linear: (fast) , angular: (turn left)": -37.818055080124864,
+        "linear: (fast) , angular: (hard left)": -42.08711282053428,
+        "linear: (fast) , angular: (turn right)": -41.49533511250949,
+        "linear: (fast) , angular: (hard right)": -37.306244202251904
     },
-    "right : tilted close\tfront : close\tleft : far\tright_diagonal : far\t": {
+    "right : good\tfront : far\tright_diagonal : far\t": {
+        "linear: (fast) , angular: (straight)": -33.446527975380235,
+        "linear: (fast) , angular: (turn left)": -32.957479416115646,
+        "linear: (fast) , angular: (hard left)": -31.163826230690745,
+        "linear: (fast) , angular: (turn right)": -32.819040818449324,
+        "linear: (fast) , angular: (hard right)": -33.285378570520415
+    },
+    "right : tilted far\tfront : close\tright_diagonal : close\t": {
+        "linear: (fast) , angular: (straight)": -52.116133941441234,
+        "linear: (fast) , angular: (turn left)": -51.89393102092054,
+        "linear: (fast) , angular: (hard left)": -51.22018290951572,
+        "linear: (fast) , angular: (turn right)": -54.33880077759517,
+        "linear: (fast) , angular: (hard right)": -52.04061192295188
+    },
+    "right : tilted far\tfront : close\tright_diagonal : far\t": {
         "linear: (fast) , angular: (straight)": 0,
         "linear: (fast) , angular: (turn left)": 0,
         "linear: (fast) , angular: (hard left)": 0,
         "linear: (fast) , angular: (turn right)": 0,
         "linear: (fast) , angular: (hard right)": 0
     },
-    "right : tilted close\tfront : far\tleft : close\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -9.290099371210745,
-        "linear: (fast) , angular: (turn left)": -22.656756133092408,
-        "linear: (fast) , angular: (hard left)": -1.6806392163055421,
-        "linear: (fast) , angular: (turn right)": -2.6590220961937776,
-        "linear: (fast) , angular: (hard right)": -2.7924817036154574
+    "right : tilted far\tfront : far\tright_diagonal : close\t": {
+        "linear: (fast) , angular: (straight)": -37.65298504999748,
+        "linear: (fast) , angular: (turn left)": -38.74388108310356,
+        "linear: (fast) , angular: (hard left)": -37.52431310781738,
+        "linear: (fast) , angular: (turn right)": -40.168052241029926,
+        "linear: (fast) , angular: (hard right)": -36.591721585314275
     },
-    "right : tilted close\tfront : far\tleft : close\tright_diagonal : far\t": {
-        "linear: (fast) , angular: (straight)": -0.140960693359375,
-        "linear: (fast) , angular: (turn left)": -3.697110787734811,
-        "linear: (fast) , angular: (hard left)": -5.764112133139013,
-        "linear: (fast) , angular: (turn right)": 0,
-        "linear: (fast) , angular: (hard right)": 0
+    "right : tilted far\tfront : far\tright_diagonal : far\t": {
+        "linear: (fast) , angular: (straight)": -46.386115636601915,
+        "linear: (fast) , angular: (turn left)": -46.380268660012945,
+        "linear: (fast) , angular: (hard left)": -45.69359968560077,
+        "linear: (fast) , angular: (turn right)": -45.47278563921362,
+        "linear: (fast) , angular: (hard right)": -45.05718892466353
     },
-    "right : tilted close\tfront : far\tleft : far\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -44.28811964002972,
-        "linear: (fast) , angular: (turn left)": -35.91850463796955,
-        "linear: (fast) , angular: (hard left)": -29.356619220340573,
-        "linear: (fast) , angular: (turn right)": -33.87081791717044,
-        "linear: (fast) , angular: (hard right)": -18.98942593053387
+    "right : far\tfront : close\tright_diagonal : close\t": {
+        "linear: (fast) , angular: (straight)": -56.13077050000392,
+        "linear: (fast) , angular: (turn left)": -56.85601081790522,
+        "linear: (fast) , angular: (hard left)": -55.72518557598101,
+        "linear: (fast) , angular: (turn right)": -55.026563860568736,
+        "linear: (fast) , angular: (hard right)": -57.717005246099816
     },
-    "right : tilted close\tfront : far\tleft : far\tright_diagonal : far\t": {
-        "linear: (fast) , angular: (straight)": -3.368449555968328,
-        "linear: (fast) , angular: (turn left)": -3.4928620157352546,
-        "linear: (fast) , angular: (hard left)": -7.150686509921411,
-        "linear: (fast) , angular: (turn right)": -4.443128008108666,
-        "linear: (fast) , angular: (hard right)": -7.589519609130572
+    "right : far\tfront : close\tright_diagonal : far\t": {
+        "linear: (fast) , angular: (straight)": -48.81032898309489,
+        "linear: (fast) , angular: (turn left)": -47.36239729283078,
+        "linear: (fast) , angular: (hard left)": -47.37766045951808,
+        "linear: (fast) , angular: (turn right)": -48.47811164549941,
+        "linear: (fast) , angular: (hard right)": -48.61888225071785
     },
-    "right : good\tfront : close\tleft : close\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -40.172678399131286,
-        "linear: (fast) , angular: (turn left)": -38.124361677866105,
-        "linear: (fast) , angular: (hard left)": -39.42465120183241,
-        "linear: (fast) , angular: (turn right)": -40.37250658995273,
-        "linear: (fast) , angular: (hard right)": -36.1387436999875
+    "right : far\tfront : far\tright_diagonal : close\t": {
+        "linear: (fast) , angular: (straight)": -42.31913857756403,
+        "linear: (fast) , angular: (turn left)": -39.852476641151604,
+        "linear: (fast) , angular: (hard left)": -40.980030652559556,
+        "linear: (fast) , angular: (turn right)": -41.13375720635793,
+        "linear: (fast) , angular: (hard right)": -40.764001815198924
     },
-    "right : good\tfront : close\tleft : close\tright_diagonal : far\t": {
-        "linear: (fast) , angular: (straight)": 0,
-        "linear: (fast) , angular: (turn left)": 0,
-        "linear: (fast) , angular: (hard left)": 0,
-        "linear: (fast) , angular: (turn right)": 0,
-        "linear: (fast) , angular: (hard right)": 0
-    },
-    "right : good\tfront : close\tleft : far\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -21.46595697091709,
-        "linear: (fast) , angular: (turn left)": -23.318437695391978,
-        "linear: (fast) , angular: (hard left)": -20.923027528641043,
-        "linear: (fast) , angular: (turn right)": -21.26080657074823,
-        "linear: (fast) , angular: (hard right)": -20.143478676863374
-    },
-    "right : good\tfront : close\tleft : far\tright_diagonal : far\t": {
-        "linear: (fast) , angular: (straight)": 0,
-        "linear: (fast) , angular: (turn left)": 0,
-        "linear: (fast) , angular: (hard left)": 0,
-        "linear: (fast) , angular: (turn right)": 0,
-        "linear: (fast) , angular: (hard right)": 0
-    },
-    "right : good\tfront : far\tleft : close\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -0.573074621905493,
-        "linear: (fast) , angular: (turn left)": -0.19129107594490052,
-        "linear: (fast) , angular: (hard left)": -1.5268168985655342,
-        "linear: (fast) , angular: (turn right)": -1.0695654654502869,
-        "linear: (fast) , angular: (hard right)": -13.136335603692467
-    },
-    "right : good\tfront : far\tleft : close\tright_diagonal : far\t": {
-        "linear: (fast) , angular: (straight)": -0.27920408560743354,
-        "linear: (fast) , angular: (turn left)": -5.021656735550994,
-        "linear: (fast) , angular: (hard left)": -0.19208464980125428,
-        "linear: (fast) , angular: (turn right)": -5.694244611561,
-        "linear: (fast) , angular: (hard right)": 0
-    },
-    "right : good\tfront : far\tleft : far\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -23.68499605243583,
-        "linear: (fast) , angular: (turn left)": -24.042046726507873,
-        "linear: (fast) , angular: (hard left)": -26.29967183861032,
-        "linear: (fast) , angular: (turn right)": -25.14299315821849,
-        "linear: (fast) , angular: (hard right)": -22.650242361833858
-    },
-    "right : good\tfront : far\tleft : far\tright_diagonal : far\t": {
-        "linear: (fast) , angular: (straight)": -8.49530586544575,
-        "linear: (fast) , angular: (turn left)": -4.630373145382228,
-        "linear: (fast) , angular: (hard left)": -4.701643389308238,
-        "linear: (fast) , angular: (turn right)": -8.765512584137213,
-        "linear: (fast) , angular: (hard right)": -4.268216873983816
-    },
-    "right : tilted far\tfront : close\tleft : close\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -54.69622033180726,
-        "linear: (fast) , angular: (turn left)": -54.074884562786195,
-        "linear: (fast) , angular: (hard left)": -54.33503697046494,
-        "linear: (fast) , angular: (turn right)": -53.79563066541904,
-        "linear: (fast) , angular: (hard right)": -54.692928520526195
-    },
-    "right : tilted far\tfront : close\tleft : close\tright_diagonal : far\t": {
-        "linear: (fast) , angular: (straight)": 0,
-        "linear: (fast) , angular: (turn left)": 0,
-        "linear: (fast) , angular: (hard left)": 0,
-        "linear: (fast) , angular: (turn right)": 0,
-        "linear: (fast) , angular: (hard right)": 0
-    },
-    "right : tilted far\tfront : close\tleft : far\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -3.0,
-        "linear: (fast) , angular: (turn left)": -1.3871764359589485,
-        "linear: (fast) , angular: (hard left)": -0.9960403238989931,
-        "linear: (fast) , angular: (turn right)": -0.7701555091976168,
-        "linear: (fast) , angular: (hard right)": -13.898400449613787
-    },
-    "right : tilted far\tfront : close\tleft : far\tright_diagonal : far\t": {
-        "linear: (fast) , angular: (straight)": 0,
-        "linear: (fast) , angular: (turn left)": 0,
-        "linear: (fast) , angular: (hard left)": 0,
-        "linear: (fast) , angular: (turn right)": 0,
-        "linear: (fast) , angular: (hard right)": 0
-    },
-    "right : tilted far\tfront : far\tleft : close\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -15.092813491466226,
-        "linear: (fast) , angular: (turn left)": -9.729144889941974,
-        "linear: (fast) , angular: (hard left)": -13.566986877257314,
-        "linear: (fast) , angular: (turn right)": -11.25173809367245,
-        "linear: (fast) , angular: (hard right)": -13.395723923784278
-    },
-    "right : tilted far\tfront : far\tleft : close\tright_diagonal : far\t": {
-        "linear: (fast) , angular: (straight)": -5.557072898649888,
-        "linear: (fast) , angular: (turn left)": -4.903228350052709,
-        "linear: (fast) , angular: (hard left)": -3.9005727422622596,
-        "linear: (fast) , angular: (turn right)": -6.409319417927607,
-        "linear: (fast) , angular: (hard right)": -3.3035615674009757
-    },
-    "right : tilted far\tfront : far\tleft : far\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -23.806910741039886,
-        "linear: (fast) , angular: (turn left)": -23.37865582903693,
-        "linear: (fast) , angular: (hard left)": -23.884076836422235,
-        "linear: (fast) , angular: (turn right)": -23.83342189017367,
-        "linear: (fast) , angular: (hard right)": -23.880809533137725
-    },
-    "right : tilted far\tfront : far\tleft : far\tright_diagonal : far\t": {
-        "linear: (fast) , angular: (straight)": -20.233718497584107,
-        "linear: (fast) , angular: (turn left)": -19.350951548900596,
-        "linear: (fast) , angular: (hard left)": -16.599237195314537,
-        "linear: (fast) , angular: (turn right)": -18.816000212276826,
-        "linear: (fast) , angular: (hard right)": -18.226699218201965
-    },
-    "right : far\tfront : close\tleft : close\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -57.45897541451109,
-        "linear: (fast) , angular: (turn left)": -62.92270135995245,
-        "linear: (fast) , angular: (hard left)": -58.75894965634366,
-        "linear: (fast) , angular: (turn right)": -57.89734668354674,
-        "linear: (fast) , angular: (hard right)": -60.20133760669114
-    },
-    "right : far\tfront : close\tleft : close\tright_diagonal : far\t": {
-        "linear: (fast) , angular: (straight)": -52.349421210707405,
-        "linear: (fast) , angular: (turn left)": -55.96051632332083,
-        "linear: (fast) , angular: (hard left)": -55.9587139723393,
-        "linear: (fast) , angular: (turn right)": -48.12379298957323,
-        "linear: (fast) , angular: (hard right)": -54.063798597914655
-    },
-    "right : far\tfront : close\tleft : far\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -47.82778531918394,
-        "linear: (fast) , angular: (turn left)": -41.93675054297639,
-        "linear: (fast) , angular: (hard left)": -36.65518075997834,
-        "linear: (fast) , angular: (turn right)": -43.81374419741867,
-        "linear: (fast) , angular: (hard right)": -40.19365357061518
-    },
-    "right : far\tfront : close\tleft : far\tright_diagonal : far\t": {
-        "linear: (fast) , angular: (straight)": -36.4520676202537,
-        "linear: (fast) , angular: (turn left)": -43.40235321253932,
-        "linear: (fast) , angular: (hard left)": -32.99429846931458,
-        "linear: (fast) , angular: (turn right)": -29.92977877382831,
-        "linear: (fast) , angular: (hard right)": -30.59579367655617
-    },
-    "right : far\tfront : far\tleft : close\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -35.51644653947061,
-        "linear: (fast) , angular: (turn left)": -35.12287606756544,
-        "linear: (fast) , angular: (hard left)": -34.37210056914811,
-        "linear: (fast) , angular: (turn right)": -37.02963085468893,
-        "linear: (fast) , angular: (hard right)": -35.903316560586205
-    },
-    "right : far\tfront : far\tleft : close\tright_diagonal : far\t": {
-        "linear: (fast) , angular: (straight)": -31.80531321699711,
-        "linear: (fast) , angular: (turn left)": -31.378772787546147,
-        "linear: (fast) , angular: (hard left)": -30.771548916938087,
-        "linear: (fast) , angular: (turn right)": -31.202665499276065,
-        "linear: (fast) , angular: (hard right)": -31.11666792234201
-    },
-    "right : far\tfront : far\tleft : far\tright_diagonal : close\t": {
-        "linear: (fast) , angular: (straight)": -29.6457481291238,
-        "linear: (fast) , angular: (turn left)": -29.315232384802773,
-        "linear: (fast) , angular: (hard left)": -29.035154434678958,
-        "linear: (fast) , angular: (turn right)": -28.678798093892457,
-        "linear: (fast) , angular: (hard right)": -30.0427847586149
-    },
-    "right : far\tfront : far\tleft : far\tright_diagonal : far\t": {
-        "linear: (fast) , angular: (straight)": -31.01462950564581,
-        "linear: (fast) , angular: (turn left)": -31.758478128279393,
-        "linear: (fast) , angular: (hard left)": -30.640937865082766,
-        "linear: (fast) , angular: (turn right)": -31.061816498083164,
-        "linear: (fast) , angular: (hard right)": -31.40071243639941
+    "right : far\tfront : far\tright_diagonal : far\t": {
+        "linear: (fast) , angular: (straight)": -58.12203597478515,
+        "linear: (fast) , angular: (turn left)": -58.05294354980781,
+        "linear: (fast) , angular: (hard left)": -57.954120394556185,
+        "linear: (fast) , angular: (turn right)": -57.16650740948655,
+        "linear: (fast) , angular: (hard right)": -50.42541911037231
     }
 }
